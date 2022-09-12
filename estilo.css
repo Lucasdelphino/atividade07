@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    font-family: IBM Plex Mono;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #ac8383d8, #0f2553da);
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    background: url(./image7/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+}
+
+.tudo3{
+    background-color: rgba(255, 255, 255, 0.199); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    padding: 1% 5%;
+    color: red;
+}
